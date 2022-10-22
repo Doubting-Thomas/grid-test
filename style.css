@@ -1,3 +1,13 @@
+:root {
+  --bg-color-primary-1: hsl(263, 55%, 52%);
+  --bg-color-primary-2: hsl(217, 19%, 35%);
+  --bg-color-primary-3: hsl(219, 29%, 14%);
+  --bg-color-primary-4: hsl(0, 0%, 100%);
+
+  --text-color-light-1: hsl(0, 0%, 81%);
+  --text-color-light-2: hsl(210, 46%, 95%);
+}
+
 html {
   font-size: 62.5%;
 }
@@ -15,6 +25,26 @@ section {
 
 .heading-main {
   font-weight: 600;
+}
+
+.grid-item-1 {
+  background-color: var(--bg-color-primary-1);
+}
+
+.grid-item-2 {
+  background-color: var(--bg-color-primary-2);
+}
+
+.grid-item-3 {
+  background-color: var(--bg-color-primary-4);
+}
+
+.grid-item-4 {
+  background-color: var(--bg-color-primary-4);
+}
+
+.grid-item-5 {
+  background-color: var(--bg-color-primary-3);
 }
 
 /* .testimonial-layout {
