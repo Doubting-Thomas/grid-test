@@ -25,6 +25,16 @@ section {
 
 .heading-main {
   font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+
+.heading-main-white-grid {
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.text-main {
+  color: hsl(0, 0%, 81%);
 }
 
 .grid-item-1 {
