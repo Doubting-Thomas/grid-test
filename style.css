@@ -71,6 +71,22 @@ section {
   border: 1px solid var(--bg-color-primary-1);
 }
 
+.light-style-name {
+  color: hsl(0, 0%, 81%);
+}
+
+.bold-style-name {
+  color: black;
+}
+
+.customer-status {
+  opacity: 50%;
+}
+
+.text-main {
+  opacity: 70%;
+}
+
 .grid-item-1 {
   background-color: var(--bg-color-primary-1);
 }
