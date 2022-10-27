@@ -15,7 +15,7 @@ html {
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 1.3rem;
-  background-color: hsl(210, 46%, 95%);
+  background-color: var(--text-color-light-2);
 }
 
 section {
@@ -25,7 +25,7 @@ section {
 
 .heading-main {
   font-weight: 600;
-  color: hsl(0, 0%, 100%);
+  color: var(--text-color-light-1);
 }
 
 .heading-main-white-grid {
@@ -34,7 +34,7 @@ section {
 }
 
 .text-main {
-  color: hsl(0, 0%, 81%);
+  color: var(--text-color-light-1);
 }
 
 .grid-testimonial {
@@ -72,7 +72,7 @@ section {
 }
 
 .light-style-name {
-  color: hsl(0, 0%, 81%);
+  color: var(--text-color-light-1);
 }
 
 .bold-style-name {
